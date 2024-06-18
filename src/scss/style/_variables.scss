@@ -1,0 +1,3 @@
+$dev-mode: true;
+$img-path: if($dev-mode, '/src/img/', '/assets/img/');
+

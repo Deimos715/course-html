@@ -1,0 +1,227 @@
+/* -----------------------------------------------
+				CSS Styles 
+--------------------------------------------------
+
+    Template Name: 
+    
+-------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main-section {
+    min-height: 623px;
+    background: #FFFFFF;
+
+    &__nav-container {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 69px;
+        align-items: center;
+        background: radial-gradient(ellipse at center, #7AF8CB4D 0%, #ffffff 70%);
+        margin-bottom: 70px;
+    }
+    &__content-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: calc(61vh - 69px - 70px - 20px);
+    }
+}
+.center-wrapper {
+    width: 944px;
+    text-align: center;
+    &__title {
+        margin-bottom: 24px;
+    }
+    &__text {
+        margin-bottom: 34px;
+    }
+}
+
+.title {
+    font-size: 52px;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 63.39px;
+    
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 41px;
+}
+
+.buttons{
+    &__main-btn {
+        background: #C2FBD7;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+
+    }
+}
+
+.nav-menu {
+    &__list {
+        display: flex;
+        flex-direction: row;
+    }
+    &__list-item {
+        margin-right: 64px;
+        font-size: 18px;
+        a {
+            color: #000000;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.second-section {
+    position: relative;
+    min-height: 623px;
+    background: linear-gradient(to right, #FFF2D0, #A8FF764D, #FFF2D0);
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    &__title-h2 {
+        margin-bottom: 32px;
+    }
+    &__cards-box {
+        display: inline-flex;
+    }
+    &__cards-item {
+        margin-right: 24px;
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+}
+
+.title-h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 41px;
+    &__strong-text {
+        font-weight: 900;
+    }
+}
+
+.cards-item {
+    width: 280px;
+    height: 361px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 20px 32px;
+    text-align: center;
+    &__img {
+        margin-bottom: 32px;
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.5px;
+        margin-bottom: 12px;
+    }
+    &__text {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+}
+
+.third-section {
+    min-height: 500px;
+    background: #FFFFFF;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    &__title-h2 {
+        margin-bottom: 32px;
+    }
+    &__feedback {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+}
+
+.feedback-item {
+    width: 433px;
+    height: 99px;
+    border-radius: 10px;
+    background: #F3F3F3;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    &__img {
+        margin-right: 24px;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.07px;
+        text-align: left;
+    }
+}
+
+.footer-section {
+    &__nav-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: radial-gradient(ellipse at center, #7AF8CB4D 0%, #ffffff 70%);
+        padding: 20px 0;
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 18px;
+    }
+    &__header {
+        display: flex;
+        align-items: center;
+    }
+    &__info {
+        margin-left: auto;
+    }
+}
+
+.info-menu {
+    &__list {
+        display: flex;
+        flex-direction: row;
+    }
+    &__list-item{
+        margin-right: 24px;
+        font-size: 14px;
+        a {
+            color: #000000;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
